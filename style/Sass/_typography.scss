@@ -1,0 +1,32 @@
+a{
+    @include font;
+     text-decoration: none;
+     margin: 5% 0 5% 5%;
+     font-size: 1.5rem;
+}
+h1{
+    @include font;
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+h3{
+    @include font;
+    font-size: 2rem;
+}
+.rightHeader button{
+font-size: 1rem;
+font-family: 'Montserrat';
+}
+a:hover, a:focus{
+    color: coral;
+    cursor: pointer;
+} 
+button:hover, button:focus{
+    background-color: coral;
+    cursor: pointer;
+}
+p, li{
+    font-family:'Montserrat';
+    font-size: 1rem;
+}
