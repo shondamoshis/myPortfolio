@@ -2,3 +2,9 @@
     font-family: 'Montserrat';
     color:lightgray;
 }
+@mixin formSettings{
+    padding:2% 0 2% 1%;
+    border-radius: 5px;
+    border:2px black solid;
+    background-color: lightgray;
+}

@@ -1,0 +1,60 @@
+.leftContact{
+    background:black;
+    display:flex;
+    flex-direction: column;
+    width:26%;
+    height:100vh;
+    justify-content: space-between;
+}
+.contact{
+    display: flex;
+    background: darkgray;
+}
+.middleContact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    display: flex;
+    width:80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15%;
+}
+textarea{
+    width: 100%;
+    @include formSettings;
+}
+.name{
+    width:30%;
+    margin-bottom: 2%;
+    @include formSettings;
+}
+.email{
+    width:68%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    @include formSettings;
+    
+}
+.middleContact img{
+    position: absolute;
+    bottom:0;
+}
+.contact button{
+    border-radius: 5px;
+    background-color: lightgray;
+    border:2px black solid;
+    margin-top:3%;
+    width:150px;
+}
+.contact button:hover, .contact button:focus{
+    background: coral;
+}
+.contactIcons a{
+    font-size: 3.5rem;
+}
+.contactIcons{
+    align-self: center;
+}

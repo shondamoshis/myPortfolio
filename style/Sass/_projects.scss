@@ -1,0 +1,27 @@
+.projects{
+    display: flex;
+    background: darkgray;
+}
+.projectsLeft{
+    background:black;
+    display:flex;
+    flex-direction: column;
+    width:26%;
+    height:100vh;
+    justify-content: space-between;
+}
+.projectContainer{
+    display: flex;
+    flex-wrap: wrap;
+    background: darkgray;
+    justify-content: space-between;
+    width:70%;
+    margin-left: 12%;
+}
+.projectInfo{
+    width:40%;
+    text-align: center;
+}
+.projectInfo a:hover,.projectInfo a:focus{
+    opacity: 50%;
+}

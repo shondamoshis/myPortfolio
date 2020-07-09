@@ -282,6 +282,20 @@ p, li {
   font-size: 1rem;
 }
 
+.projects p {
+  margin-bottom: 0;
+}
+
+.projects h3, .contact h3 {
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 0;
+}
+
+.contact h3 {
+  margin-top: 3%;
+}
+
 header {
   background-color: darkgray;
   display: -webkit-box;
@@ -352,6 +366,9 @@ nav {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  border-radius: 5px;
+  background-color: lightgray;
+  border: 2px black solid;
 }
 
 .rightHeader img {
@@ -365,10 +382,6 @@ button {
   padding: 25px 0;
 }
 
-.arrows {
-  margin-top: 100px;
-}
-
 .leftAbout {
   background: black;
   display: -webkit-box;
@@ -378,7 +391,7 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 30%;
+  width: 29%;
   height: 100vh;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -392,7 +405,8 @@ button {
 }
 
 .middleAbout {
-  width: 30%;
+  width: 35%;
+  padding-left: 5%;
 }
 
 .about {
@@ -408,7 +422,7 @@ button {
   height: 300px;
   position: absolute;
   right: 0;
-  top: 320px;
+  top: 330px;
 }
 
 .rightAbout {
@@ -428,5 +442,154 @@ button {
 .aboutArrows {
   position: relative;
   right: 5px;
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: darkgray;
+}
+
+.projectsLeft {
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 26%;
+  height: 100vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.projectContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: darkgray;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 70%;
+  margin-left: 12%;
+}
+
+.projectInfo {
+  width: 40%;
+  text-align: center;
+}
+
+.projectInfo a:hover, .projectInfo a:focus {
+  opacity: 50%;
+}
+
+.leftContact {
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 26%;
+  height: 100vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: darkgray;
+}
+
+.middleContact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15%;
+}
+
+textarea {
+  width: 100%;
+  padding: 2% 0 2% 1%;
+  border-radius: 5px;
+  border: 2px black solid;
+  background-color: lightgray;
+}
+
+.name {
+  width: 30%;
+  margin-bottom: 2%;
+  padding: 2% 0 2% 1%;
+  border-radius: 5px;
+  border: 2px black solid;
+  background-color: lightgray;
+}
+
+.email {
+  width: 68%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  padding: 2% 0 2% 1%;
+  border-radius: 5px;
+  border: 2px black solid;
+  background-color: lightgray;
+}
+
+.middleContact img {
+  position: absolute;
+  bottom: 0;
+}
+
+.contact button {
+  border-radius: 5px;
+  background-color: lightgray;
+  border: 2px black solid;
+  margin-top: 3%;
+  width: 150px;
+}
+
+.contact button:hover, .contact button:focus {
+  background: coral;
+}
+
+.contactIcons a {
+  font-size: 3.5rem;
+}
+
+.contactIcons {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 /*# sourceMappingURL=style.css.map */

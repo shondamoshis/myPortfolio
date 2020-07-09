@@ -2,7 +2,7 @@
     background:black;
     display:flex;
     flex-direction: column;
-    width:30%;
+    width:29%;
     height:100vh;
     justify-content: space-between;
 }
@@ -12,7 +12,8 @@
     margin-top: 5%;
 }
 .middleAbout{
-    width:30%;
+    width:35%;
+    padding-left: 5%;
 }
 .about{
     display: flex;
@@ -24,7 +25,7 @@
     height: 300px;
     position: absolute;
     right:0;
-    top:320px;
+    top:330px;
 }
 .rightAbout{
     // width:30%;

@@ -38,6 +38,9 @@ nav{
     width:50%;
     padding:5% 0;
     align-self: center;
+    border-radius: 5px;
+    background-color: lightgray;
+    border:2px black solid;
 }
 .rightHeader img{
     position: relative;
@@ -47,7 +50,4 @@ nav{
 button{
     width:100px;
     padding:25px 0;
-}
-.arrows{
-    margin-top: 100px;
 }
