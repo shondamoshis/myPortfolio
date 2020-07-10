@@ -323,11 +323,11 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 30%;
   height: 100vh;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 30%;
 }
 
 nav {
@@ -391,11 +391,11 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 29%;
   height: 100vh;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 29%;
 }
 
 .middleAbout img {
@@ -460,11 +460,11 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 26%;
   height: 100vh;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 26%;
 }
 
 .projectContainer {
@@ -499,11 +499,11 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 26%;
   height: 100vh;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 26%;
 }
 
 .contact {
@@ -609,6 +609,9 @@ textarea {
 @media (max-width: 1125px) {
   .middleAbout {
     width: 55%;
+  }
+  .rightAbout {
+    margin-left: 2%;
   }
   .projectsRight img {
     width: 85%;

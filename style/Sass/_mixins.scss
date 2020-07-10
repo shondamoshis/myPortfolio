@@ -8,3 +8,10 @@
     border:2px black solid;
     background-color: lightgray;
 }
+@mixin desktopNav{
+    background:black;
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+    justify-content: space-between;
+}

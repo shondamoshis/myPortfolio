@@ -12,12 +12,8 @@ header{
     margin-top: 4%;
 }
 .leftHeader{
-    background:black;
-    display:flex;
-    flex-direction: column;
+    @include desktopNav;
     width:30%;
-    height:100vh;
-    justify-content: space-between;
 }
 nav{
     display: flex;

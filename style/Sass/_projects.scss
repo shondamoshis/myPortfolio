@@ -3,12 +3,8 @@
     background: darkgray;
 }
 .projectsLeft{
-    background:black;
-    display:flex;
-    flex-direction: column;
+    @include desktopNav;
     width:26%;
-    height:100vh;
-    justify-content: space-between;
 }
 .projectContainer{
     display: flex;
