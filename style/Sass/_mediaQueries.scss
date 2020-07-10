@@ -1,0 +1,130 @@
+@media (max-width:1435px){
+    .middleAbout{
+        width:50%;
+        padding-left: 2%;
+    }
+}
+@media (max-width:1210px){
+    .projectContainer{
+        width:82%;
+    }
+}
+@media (max-width:1125px){
+    .middleAbout{
+        width:55%;
+    }
+    .projectsRight img{
+        width:85%;
+        position:relative;
+        right:-26px;
+    }
+}
+@media (max-width:1045px){
+    .middleHeader img{
+        margin-left: 100px;
+        margin-top: 0;
+        width:79%;
+    }
+    .rightAbout img{
+        top: 223px;
+        width:22%;
+    }
+    .rightAbout{
+        justify-content: initial;
+        margin-left: 0;
+    }
+    .middleAbout h3{
+        margin-bottom: 0;
+    }
+    .middleHeader h1{
+        margin-bottom: 10%;
+    }
+    .middleAbout img{
+        height:50%;
+        width:50%;
+    }
+    .projectContainer{
+        width:95%;
+        margin-left: 2%;
+    }
+    .leftAbout, .projectsLeft{
+        width:32%;
+    }
+    .leftHeader{
+        width:36%;
+    }
+    .leftContact{
+        width:23%;
+    }
+    .projectsRight img{
+        width:83%;
+    }
+}
+@media (max-width:920px){
+    .rightHeader h3{
+        margin-right:7%;
+    }
+    .middleContact img{
+        width:25%;
+    }
+}
+@media (max-width:890px){
+    header, section{
+        flex-direction: column;
+    }
+    .leftHeader, .leftAbout, .leftContact, .projectsLeft{
+        width:100%;
+        height:25vh;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .leftHeader nav, .leftAbout nav, .leftContact nav, .projectsLeft nav{
+        flex-direction: row;
+    }
+    .middleHeader{
+        left:0;
+        top:0;
+    }
+    .middleHeader img{
+        display: none;
+    }
+    .middleHeader h1{
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 2%;
+    }
+    .rightHeader{
+        height:41vh;
+        margin-top: 100px;
+    }
+    .rightHeader h3{
+        margin:0;
+    }
+    .rightHeader button{
+        width:40%;
+    }
+    .rightHeader img{
+        position: absolute;
+        right: 0;
+        top: 196px;
+        width:19%
+    
+    }
+    .middleAbout img{
+        width:29%;
+    }
+    .middleAbout{
+        width:80%;
+    }
+    .rightAbout{
+        background: darkgray;
+        padding-left: 2%;
+    }
+    .projectsRight img{
+        display: none;
+    }
+    .middleContact img{
+        bottom: -134px;
+        right: 14px;
+    }
+}
