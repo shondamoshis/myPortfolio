@@ -81,6 +81,9 @@
     .leftHeader nav, .leftAbout nav, .leftContact nav, .projectsLeft nav{
         flex-direction: row;
     }
+    .about{
+        height:auto;
+    }
     .middleHeader{
         left:0;
         top:0;
@@ -124,7 +127,73 @@
         display: none;
     }
     .middleContact img{
-        bottom: -134px;
-        right: 14px;
+        bottom: -16%;
+        right: 8%;
+    }
+    .contactIcons{
+        align-self: initial;
+    }
+}
+@media(max-width:780px){
+    .leftHeader, .leftAbout, .leftContact, .projectsLeft{
+        justify-content:space-evenly ;
+    }
+    .rightHeader img, .rightAbout img, .middleContact img{
+        display: none;
+    }
+}
+@media(max-width:715px){
+    .middleContact img{
+        display: none;
+    }
+    .leftHeader img, .leftAbout img, .leftContact img, .projectsLeft img{
+        height:110px;
+        width:110px;
+        margin-right: 2%;
+    }
+    .leftHeader, .leftAbout, .leftContact, .projectsLeft{
+        justify-content: left;
+    }
+}
+@media(max-width:685px){
+    .projectContainer{
+        justify-content: space-evenly;
+    }
+}
+@media(max-width:620px){
+    .projectContainer{
+        flex-direction: column;
+    }
+    .projectInfo{
+        width:100%;
+    }
+    p{
+        font-size: 16px;
+    }
+    .leftHeader, .leftAbout, .leftContact, .projectsLeft{
+        height: 75vh;
+        flex-direction: column;
+        text-align: center;
+    }
+    .leftHeader nav, .leftAbout nav, .leftContact nav, .projectsLeft nav{
+        flex-direction: column;
+    }
+
+}
+@media(max-width:545px){
+    .middleAbout{
+        width:95%;
+    }
+    .about{
+        text-align: center;
+    }
+}
+@media(max-width:465px){
+    h1{
+        font-size: 4rem;
+    }
+    .name, .email{
+        width:100%;
+        margin-left: 0;
     }
 }
